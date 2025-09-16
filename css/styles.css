@@ -652,6 +652,15 @@ progress {
   height: auto;
 }
 
+@media (min-width: 768px) {
+  .img-fluid {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4312,7 +4321,6 @@ fieldset:disabled .btn {
 }
 
 img {
-  max-height: 700px;
   padding: 5px;
   margin: 5px;
   border: 1px solid black;
