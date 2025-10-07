@@ -1544,6 +1544,7 @@ progress {
 img {
   padding: 5px;
   margin: 5px;
+  margin-top: 5rem;
   border: 1px solid black;
 }
 
