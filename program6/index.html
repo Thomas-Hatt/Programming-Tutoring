@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Thomas Hatt Programming Tutoring - Program 6</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar-->
+    <div class="border-end bg-white" id="sidebar-wrapper">
+      <div class="sidebar-heading border-bottom bg-light">Intro to Programming</div>
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="../program1/index.html">Program
+          1</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="../program2/index.html">Program
+          2</a>
+        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="../program3/index.html">Program
+          3</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="../program4/index.html">Program
+          4</a>
+        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="../program5/index.html">Program
+          5</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="../program6/index.html">Program
+          6</a>
+        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="../program7/index.html">Program
+          7</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="../program8/index.html">Program
+          8</a>
+        <a class="list-group-item list-group-item-action list-group-item-dark p-3"
+          href="../finalProgram/index.html">Final Program</a>
+      </div>
+    </div>
+    <!-- Page content wrapper-->
+    <div id="page-content-wrapper">
+      <!-- Top navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+          <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Page content-->
+      <div class="container-fluid">
+        <h1 class="mt-4">Thomas Hatt's Intro to Programming Tutoring</h1>
+        <h3 class="mt-4">Program 6</h3><br>
+        <div class="task">
+          <p><b>Task:</b> Susan runs several bowling tournaments and needs a program to calculate the average for
+            individual bowlers. She
+            enters the scores in a file and would like a program to add up the scores and divide by the total. Susan
+            would also
+            like the program to have the option of displaying the scores to screen in sequential order.
+          </p>
+          <p>Your task is to create a program that displays the bowling scores to screen and calculate the bowler’s
+            average.
+          </p>
+          <b>Input:</b>
+          <ol>
+            <li>
+              The user enters a letter to go to a specific function
+              <ul>
+                <li>C: Calculate the bowler's average score</li>
+                <ul>
+                  <li>Attempts to read the scores from a pre-defined file</li>
+                </ul>
+                <li>D: Display the the current scores</li>
+                <li>X: Exit application</li>
+              </ul>
+            </li>
+          </ol>
+          <b>Process:</b>
+          <ol>
+            <u>Program written in Python containing:</u>
+            <li>A main function that displays a menu of choices.</li>
+            <li>A function named ShowScores that displays scores for all items in the text file provided. Each
+              score should have a line number to the left starting at 1. For example: 1: 190 2: 247. (see output
+              example below). This function accepts zero arguments and does not return any values. This
+              function does read from a text file, so it needs error handling for IOErrors.
+            </li>
+            <li>A function named CalculateAvg that reads the text file provided, accumulates a total and divides
+              the total by the number of items in the file provided. This function accepts zero arguments and
+              returns a single value. The value returned is the bowler’s average as a result. This function does
+              read from a text file, so it needs error handling for IOErrors and ValueErrors.
+            </li>
+            <li>Program is saved as Program6.py</li>
+          </ol>
+          <b>Output:</b>
+          <ol>
+            <li>Scenario 1 (User enters letter C): <br>
+              Calculates the average score from the 'games.txt' file and returns the average score in a float, or
+              nothing if there was an error.</li>
+            <li>Scenario 2 (User enters letter D): <br>
+              Iterates through the entire file and displays them on screen.</li>
+            <li>Scenario 3 (User enters letter X): <br>
+              The program prints a goodbye message and closes.</li>
+          </ol>
+          </p>
+          <p><b>The formatted class average will return 203.96 based on the text file provided to you. You must
+              develop
+              your
+              program to count the lines in the event the text file were to change.</b></p>
+        </div>
+        <img src="../assets/program_6_python_png_1.png" class="img-fluid" alt="Program 6 Python Code Image #1">
+        <br>
+        <img src="../assets/program_6_python_png_2.png" class="img-fluid" alt="Program 6 Python Code Image #1">
+      </div>
+
+    </div>
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="../js/scripts.js"></script>
+</body>
+
+</html>
