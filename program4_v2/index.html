@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Thomas Hatt Programming Tutoring - Program 3</title>
+  <title>Thomas Hatt Programming Tutoring - Program 4 V2</title>
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
   <!-- Core theme CSS (includes Bootstrap)-->
@@ -46,6 +46,7 @@
           style="font-weight: bold;">Final Program</a>
       </div>
     </div>
+
     <!-- Page content wrapper-->
     <div id="page-content-wrapper">
       <!-- Top navigation-->
@@ -55,6 +56,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </div>
         </div>
       </nav>
 
@@ -62,45 +65,56 @@
       <!-- Page content-->
       <div class="container-fluid">
         <h1 class="mt-4">Thomas Hatt's Intro to Programming Tutoring</h1>
-        <h3 class="mt-4">Program 3</h3><br>
+        <h3 class="mt-4">Program 4 V2</h3><br>
         <div class="task">
-          <p><b>Task:</b> The Fly By Night Magic Bean Company is trying to increase their sales by offering discounts to
-            their
-            customers for
-            purchasing more beans. Based on the number of magic beans purchased, the customer will receive a larger
-            discount and, in some cases, even a free gift. Based on the number of beans purchased, your program needs to
-            produce the following messages showing the discount and/or the gift being provided.
+          <p><b>Task:</b> Dice are commonly used in a number of games to produce random results using various game
+            mechanics. Dice are also used to illustrate probabilities based on the number of sides of each die and
+            looking at the likelihood of rolling any specific result. A standard 6-sided die has an equal probability of
+            rolling any number between 1 and 6.
           </p>
-          <b>Input:</b>
+          <p>Assuming you're using a normal pair of 6-sided dice, you're going to create a program to ilustrate the roll
+            of the pair of dice and the results produced. Your program will generate random numbers as the roll result
+            of for each of the dice and look at the total. For each roll, your program will display the roll number, the
+            value for each die, and the total shown across both dice. Your program will continue "rolling" the dice
+            until the total ends up as 12. Once finished, your program will display the total number of rolls and the
+            average across all the roll results.</p>
+
+          <b>Raptor Requirements</b>
           <ol>
-            <li>
-              The user enters the amount of beans they would like to purchase stored in an integer input.
-            </li>
+            <u>Flow chart is create containing:</u>
+            <li>A loop that continues as long as a 12 has not yet been rolled</li>
+            <li>Two variables that store the random die values</li>
+            <li>One variable to store the roll number</li>
+            <li>One variable to store the total of the current roll</li>
+            <li>One variable to store the total of all rolls</li>
+            <li>One variable to store the average of all rolls</li>
+            <li>A condition determining if the current roll is a 12</li>
+            <li>Output showing the number of each roll, result on each die, and the total for both dice</li>
+            <li>Output showing the total number of rolls and the average of all roll results after a 12 is rolled</li>
           </ol>
-          <b>Processing:</b>
+
+          <b>Python Requirements</b>
           <ol>
-            <li>Scenario 1 (Beans < 1): <br>
-                Default print message of "Fly By Night sells only quality Magic Beans!"</li>
-            <li>Scenario 2 (Beans between 1 and 10): <br> print 5% discount + Message</li>
-            <li>Scenario 3 (Beans between 11 and 20): <br> print 10% discount + Message</li>
-            <li>Scenario 4 (Beans between 21 and 50): <br> print 20% discount + Message</li>
-            <li>Scenario 5 (Beans between 51 and 100): <br> print 25% discount + Message</li>
-            <li>Scenario 6 (Beans > 100): <br> print 50% discount + Message</li>
-            <li>Program is saved as Program7.py</li>
+            <u>Program wrriten in Python containing:</u>
+            <li>A loop that runs until a 12 is rolled on the dice</li>
+            <li>Two variables that store die values</li>
+            <li>Variables storing the roll number, total of the individual roll, and the total of all rolls</li>
+            <li>A condition determining if the roll result is a 12</li>
+            <li>A variable storing the average of all rolls</li>
+            <li>Output showing the number of each roll, the result on each die, and the total for both dice</li>
+            <li>Output showing the total number of rolls and the average of all roll results after a 12 is rolled</li>
+            <li>Program is saved as Program4.py</li>
           </ol>
-          <b>Output:</b>
-          <ol>
-            One print statement to screen indicating discount/gift message. Statement should display text
-            indicating information in chart above.
-          </ol>
+
+
           </p>
         </div>
-        <img src="../assets/program_3_python_png.png" class="img-fluid" alt="Program 3 Python Code Image">
+        <img src="../assets/program_4v2_python_png.png" class="img-fluid" alt="Program 4 V2 Python Code Image">
         <br>
-        <img src="../assets/program_3_rap_png.png" class="img-fluid" alt="Program 3 Raptor Image">
+        <img src="../assets/program_4v2_rap_png.png" class="img-fluid" alt="Program 4 V2 Raptor Image">
+
+        <a href="./python4v2.html" class="btn btn-primary" id="back-btn">View Code</a>
       </div>
-
-
 
     </div>
   </div>
